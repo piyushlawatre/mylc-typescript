@@ -1,4 +1,4 @@
-## TypeScript Concepts in the Code
+## TypeScript Types
 
 ### Type Annotations
 
