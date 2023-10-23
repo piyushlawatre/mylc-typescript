@@ -25,22 +25,22 @@ export const combineFruityStrings = (fruityStringOne: string, fruityStringTwo: s
   return `${fruityStringOne} ${fruityStringTwo}`;
 };
 ```
-This means that if the second parameter is not provided when the function is called, the value \`'pineapple'\` will be used instead\.
+This means that if the second parameter is not provided when the function is called, the value `pineapple` will be used instead.
 
 
 ### Union Types
-Union types in TypeScript allow a variable to hold values of different types\. This is useful when a variable can be one of several different types\.
-In the code, the \`blendFruityValues\` function uses a union type for its second parameter\:
+Union types in TypeScript allow a variable to hold values of different types. This is useful when a variable can be one of several different types.
+In the code, the \`blendFruityValues\` function uses a union type for its second parameter:
 
 ```typescript
 export const blendFruityValues = (fruityValueOne: number, fruityValueTwo: number | string): string => {
   return `${fruityValueOne} ${fruityValueTwo}`;
 };
 ```
-This means that the fruityValueTwo parameter can be either a number or a string.
+This means that the `fruityValueTwo` parameter can be either a number or a string.
 
 ### Void Types
-The void type in TypeScript indicates that a function does not return a value. In the code, the fruityVoidExample function has a return type of void:
+The void type in TypeScript indicates that a function does not return a value. In the code, the `fruityVoidExample` function has a return type of `void`:
 
 ```typescript
 export const fruityVoidExample = (fruityObject: object): void => {
