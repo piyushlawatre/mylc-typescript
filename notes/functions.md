@@ -30,7 +30,7 @@ This means that if the second parameter is not provided when the function is cal
 
 ### Union Types
 Union types in TypeScript allow a variable to hold values of different types. This is useful when a variable can be one of several different types.
-In the code, the \`blendFruityValues\` function uses a union type for its second parameter:
+In the code, the `blendFruityValues` function uses a union type for its second parameter:
 
 ```typescript
 export const blendFruityValues = (fruityValueOne: number, fruityValueTwo: number | string): string => {
