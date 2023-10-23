@@ -1,0 +1,20 @@
+{
+  "name": "mylc-typescript",
+  "version": "1.0.0",
+  "description": "My Learning Chronicles - Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@piyushlawatre:piyushlawatre/mylc-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
