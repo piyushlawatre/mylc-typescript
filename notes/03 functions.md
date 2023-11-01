@@ -1,5 +1,29 @@
 ## TypeScript Concepts in the Code
 
+### Defining Functions in TypeScript
+
+In TypeScript, functions can be defined using the `function` keyword.
+
+```typescript
+function blendTwoFruits(fruityOne: number, fruityTwo: number): number {
+    return fruityOne + fruityTwo;
+}
+```
+Module Exports and TypeScript
+Module exports using module.exports are not compatible with TypeScript.
+```typescript
+// module.exports = blendTwoFruits
+// 🚫 Module exports aren't compatible with TypeScript. 🚫
+```
+Exporting Functions Using export
+To make functions or variables accessible in TypeScript, use the export keyword.
+```typescript
+export default blendTwoFruits;
+```
+The export default syntax is used to export functions, like blendTwoFruits, in a TypeScript-friendly manner.
+This allows the function to be accessible for use in other modules.
+
+
 ### Type Annotations
 
 TypeScript uses type annotations to specify the data types of variables, function parameters, and return types. This helps to ensure type safety and prevent errors during development.
