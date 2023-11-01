@@ -34,6 +34,10 @@ In the code, type annotations are used to declare the types of variables, functi
 function blendTwoFruits(fruityOne: number, fruityTwo: number): number {
   return fruityOne + fruityTwo;
 }
+
+export const harvestFruit = (fruitTree: string): Promise<string> => {
+  return Promise.resolve(`Ripe fruit from the ${fruitTree}`);
+};
 ```
 
 This function takes two parameters, `fruityOne` and `fruityTwo`, both of which are of type `number`. The function also has a return type of `number`, indicating that it will return a numerical value.
